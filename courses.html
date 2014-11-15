@@ -46,56 +46,28 @@
         </div> <!-- navbar-header -->
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
+            <li><a href="consult.html">Consult</a></li>
+            <li class="dropdown" class="active">
+              <a href="courses.html" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li class="dropdown-header">Current Offerings</li>
-                <li><a href="#stats-101">Statistics and Big Data
+                <li><a href="courses.html#stats-101">Statistics and Big Data
     (Dublin/Pleasonton, CA, March 2015)</a></li>
-                <li><a href="#recommendation">Recommendation Systems
+                <li><a href="courses.html#recommendation">Recommendation Systems
     (Dublin/Pleasonton, CA, March 2015)</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Future Offerings</li>
-                <li><a href="#custom">Custom Offerings</a></li>
-                <li><a href="#informed">Stay Informed</a></li>
+                <li><a href="courses.html#custom">Custom Offerings</a></li>
+                <li><a href="courses.html#informed">Stay Informed</a></li>
               </ul>
             </li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>  <!-- container -->
     </div>    <!-- navbar -->
 
-
-    <section id="about">
-	  
-    <h1>How We Work</h1>
-
-	  <p>Engineering is a lot of work. Sometimes science can make
-	  it easier. Or can make what you already do work better.  Many
-	  companies, however, don't have the skills in house to
-	  bring advanced computer science to bear.
-	  </p>
-
-	  <p>
-	  We are a group of computer scientists with many years of
-	  industry experience.  We operate on the theory that helping
-	  you help yourself is usually more cost-efficient than hiring
-	  someone to do the work for you.  We come in as much as you
-	  need. It could be a single day of discussion,
-	  brainstorming, or training.  Or it might be a repeating engagement, as
-	  needed.  Our job is to help you do your job without us.
-	  <p>
-
-	  <p> <a href="#contact">Contact
-	  us</a> today.  An initial discussion and problem assessment
-	  are free: no obligation, no fee.
-	  </p>
-
-    </section>
 
     <section id="courses">
 	  <h1>Courses and Trainings</h1>
@@ -347,95 +319,10 @@
 
     </section> <!-- courses -->
 
-    <section id="team">
-	  <h1>Team</h1>
 
-	  <p><p><img src="images/jeff-150.jpg" class="img-responsive">
-          <a href="https://www.linkedin.com/profile/view?id=JeffAbrahamson">
-          Jeff Abrahamson</a> is chief scientist at London-based
-          startup Jellybooks.  With degrees in mathematics from MIT
-          and the University of Pennsylvania and a PhD in computer science
-          from Drexel University, Jeff is currently based in Nantes, France.
-          </p>
-
-	  <p><img src="images/dirk-150.jpg" class="img-responsive">
-	  <a href="https://www.linkedin.com/in/dirkgorissen">Dirk
-	  Gorissen</a> consults for the World Bank, flies robotic copters for
-          civil and humanitarian missions and works with several startups
-          including <a
-          href="http://theasi.co">The Advanced Skills Initiative</a> and <a
-          href="http://skycap.com/">SkyCap</a>.  With degrees from the
-          University of Antwerp and Katholieke Universiteit Leuven, Dirk did
-	  his PhD at Ghent University.  He is currently based in
-	  London.</p>
-
-          <p> <img src="images/neri-150.jpg" class="img-responsive">
-          <a
-          href="https://www.linkedin.com/profile/view?id=208141413">Neri
-          Van Otten</a> is a data scientist at Red Deer with a masters
-          degree from Ghent University working with a type of neural
-          network called reservoir computing. She is based in London.</p>
-
-          <p> <img src="images/sasha-150.jpg" class="img-responsive">
-          <a
-          href="https://www.linkedin.com/profile/view?id=14690502">Sasha
-          Pryymak</a> is a data scientist at facebook.  With a PhD
-          from the University of Southampton, Sasha is currently based
-          in London.</p>
-
-
-    </section> <!-- team -->
-
-    <section id="contact">
-	<h1>Contact Us</h1>
-	<p class="lead">Let's talk!</p>
-	  <div class="col-md-4">
-	<div class="well">
-	<address>
-	<strong>Orange Butterfly</strong><hr>
-	<a href="mailto:info@orange-butterfly.io">info@orange-butterfly.io</a><hr>
-	</address>
-	</div> <!-- well -->
-	</div> <!-- col-md-4 -->
-	<div class="col-md-8">
-	<form name="contactForm" method="post" action="/contact" onsubmit="return validateForm();">
-	<input type="hidden" name="falsefield" value=""/>
-	<input type="hidden" name="subject" value="MI enquiry" /> 
-	<input type="hidden" name="redirect" value="thankyou.html" />
-	<input type="hidden" name="form_order" value="alpha"/>
-	<input type="hidden" name="form_delivery" value="hourly_digest"/>
-	<input type="hidden" name="form_format" value="html"/> 
-
-	<fieldset>
-	<div class="form-group">
-	<label class="hidden" for="name">Name:</label>
-	<input class="form-control" type="text" id="name" placeholder="Name" name="name">
-	</div>
-	<div class="form-group">
-	<label class="hidden" for="email">Email:</label>
-	<input class="form-control" type="email" id="email" placeholder="Email" name="email">
-	</div>
-	<div class="form-group">
-	<label class="hidden" for="company">Company:</label>
-	<input class="form-control" type="text" id="company" placeholder="Company" name="company">
-	</div>
-	<div class="form-group">
-	<label class="hidden" for="comment">Comment:</label>
-	<textarea class="form-control" rows="7" id="comment" placeholder="Your comments..." name="comment"></textarea>
-	</div>
-	<!--                        <label class="checkbox">
-	<input type="checkbox"> CC to myself
-	</label>  -->
-	<div style="display: none" id="thxMessage">
-	<p class="lead" >Thanks for your enquiry.  Someone from our team will get back to you soon.</p>
-	</div>
-	<button type="submit" class="btn btn-large btn-primary">Send Now <i class="icon-chevron-sign-right"></i></button>
-	</fieldset>
-	</form>
-	</div> <!-- col-md-8 -->
-
-    </section>
-
+    <div class="row text-center">
+        <img src="images/butterfly-100.png">
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
