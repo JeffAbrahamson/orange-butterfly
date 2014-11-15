@@ -1,0 +1,46 @@
+	  <section id="course-name">
+	  <h2>Course Name</h2>
+
+	  <p class="lead">Where. When.</p>
+
+	  <p>
+	  Brief intro.
+	  </p>
+	  
+	  <ul class="fa-ul ok-check">
+	    <li><i class="fa-li fa fa-check"></i>Bullet list</li>
+	  </ul>
+
+
+	  <!-- Button trigger modal -->
+	  <p><button class="btn btn-default"
+	  data-toggle="modal" data-target="#CourseNameModal" color="#FF0000">
+	  Learn more...
+	  </button></p>
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="CourseNameModal" tabindex="-1" role="dialog" aria-labelledby="CourseNameModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	      <div class="modal-content">
+		<div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		  <h4 class="modal-title" id="CourseNameModalLabel">Course Name</h4>
+		</div>
+		<div class="modal-body">
+		  <p>
+	          Detailed description / sales pitch.
+		  </p>
+
+		  <p>
+		  <b>Prerequisites:</b> What to know.
+		  </p>
+		  
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+
+	  </section> <!-- course-label -->
